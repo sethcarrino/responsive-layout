@@ -141,9 +141,7 @@ header{
 }
 
 
-@media (max-width: 600px){
 
-}
 
 @media (max-width: 1100px){
   header{
@@ -166,4 +164,22 @@ header{
     width: 100%;
     padding-bottom: 2%;
   }
+}
+
+@media (max-width: 600px){
+  #main_nav a{
+    width: 100%;
+
+  }
+
+  #sidebar_content div{
+    width: 100%;
+    margin: 2%;
+  }
+
+  #sidebar_content{
+    flex-direction: column;
+
+  }
+
 }
