@@ -173,13 +173,20 @@ header{
   }
 
   #sidebar_content div{
-    width: 100%;
-    margin: 2%;
+    padding: 2%;
+    background-color: #ffffdd;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    max-width: 100%;
+
   }
 
   #sidebar_content{
     flex-direction: column;
-
+    background-color: white;
+    max-width: 100%;
   }
+
+  
 
 }
